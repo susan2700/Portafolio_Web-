@@ -1,0 +1,147 @@
+.nombre {
+    text-transform: uppercase;
+    color: white;
+    padding-top: 15px;
+}
+
+.side {
+    background-color: rgb(101, 171, 206);
+}
+
+.foto {
+    padding-top: 25px;
+}
+
+.redes-sociales {
+    display: inline flex;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.redes-sociales li {
+    display: inline-block;
+    margin: 10px;
+    color: white;
+}
+
+.menu {
+    list-style-type: none;
+    text-align: left;
+    color: white;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.menu li {
+    padding: 10px 0px 10px 0px;
+}
+
+.redes-sociales li a {
+    background-color: rgb(161, 111, 208);
+    color: white;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+#Home{
+    color: white;
+    background-color: black;
+}
+
+#Home img{
+    opacity: 0.7;
+}
+
+
+.home-nombre{
+    position: absolute;
+    top: 100px;
+    background-color: rgba(59, 76, 139, 0.474);
+    padding: 10px;
+}
+
+.home-elementos{
+    position: absolute;
+    top: 180px;
+    background-color: rgba(59, 76, 139, 0.474);
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.home-elementos i{
+    margin-right: 10px;
+    
+}
+
+
+.linea{
+    width: 100px;
+    height: 3px;
+    background-color: darkblue;
+    display: inline-block;
+}
+
+.encabezado{
+    margin-bottom: -10px;
+}
+
+.borde-derecho{
+    border-left: 3px solid rgb(98, 98, 210);
+    padding-left: 10px;
+}
+
+.lista-icono{
+    list-style-image: url("../Img/controlar.png");
+}
+
+.lista-icono li{
+   margin-top: 5px;
+}
+
+.linea-izquierda{
+    border-left: 1px solid grey;
+}
+
+.icono-redondo{
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.icono{
+    width: 100px;
+    margin-top: 35px;
+    height: 65px;
+    font-size: 35px;
+    color:white;
+}
+
+.fondo-rojo{
+    background-color: rgb(216, 89, 89);
+}
+
+.fondo-verde{
+    background-color: rgb(74, 175, 74);
+}
+
+
+.fondo-rojo:hover{
+    background-color:rgb(74, 175, 74);
+}
+
+.fondo-verde:hover{
+    background-color: rgb(216, 89, 89);
+}
+
+.fondo-gris{
+    background-color: rgb(180, 177, 177);
+}
+
+.altura-300{
+    min-height: 300px;
+    max-height: 300px;
+}
